@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles-profile.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="main.html" class="navbar-item">HOME</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for other users">
+        </div>
+        <a href="programs.html" class="clickable">
+            <div class="opportunity clickable">Programs</div>
+        </a>
+        <a href="profile.html" class="clickable">
+            <div class="profile clickable">Profile</div>
+        </a>
+        <div class="user-info">
+            <span class="username">Username</span>
+            <div class="settings-icon clickable" onclick="toggleDropdown()">&#9881;</div>
+            <div class="dropdown" id="dropdown-menu">
+                <div class="dropdown-item">Profile</div>
+                <div class="dropdown-item">Settings</div>
+                <div class="dropdown-item">Log Out</div>
+            </div>
+        </div>
+    </nav>
+</body>

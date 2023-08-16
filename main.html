@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <nav class="navbar">
+        <a href="main.html" class="navbar-item">HOME</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for other users">
+        </div>
+        <a href="programs.html" class="clickable">
+            <div class="opportunity clickable">Programs</div>
+        </a>
+        <a href="profile.html" class="clickable">
+            <div class="profile clickable">Profile</div>
+        </a>
+        <div class="user-info">
+            <span class="username">Username</span>
+            <div class="settings-icon clickable" onclick="toggleDropdown()">&#9881;</div>
+            <div class="dropdown" id="dropdown-menu">
+                <div class="dropdown-item">Profile</div>
+                <div class="dropdown-item">Settings</div>
+                <div class="dropdown-item">Log Out</div>
+            </div>
+        </div>
+    </nav>
+    <div class="content-container">
+        <div class="content-left">
+            <section class="featured-courses">
+                <div class="content-wrapper">
+                    <main>
+                        <section class="featured-courses">
+                            <h2 class="content-text">Featured Courses</h2>
+                            <div class="course-card">
+                                <img src="course1.jpg" alt="Course 1">
+                                <h3>Course 1 Title</h3>
+                                <p>Course 1 description</p>
+                            </div>
+                            <div class="course-card">
+                                <img src="course2.jpg" alt="Course 2">
+                                <h3>Course 2 Title</h3>
+                                <p>Course 2 description</p>
+                            </div>
+                            <div class="course-card">
+                                <img src="course2.jpg" alt="Course 2">
+                                <h3>Course 2 Title</h3>
+                                <p>Course 2 description</p>
+                            </div>
+                            <div class="course-card">
+                                <img src="course2.jpg" alt="Course 2">
+                                <h3>Course 2 Title</h3>
+                                <p>Course 2 description</p>
+                            </div>
+                            <!-- Add more course cards as needed -->
+                        </section>
+                        <section class="events">
+                            <h2 class="content-text">Upcoming Events</h2>
+                            <div class="event-card">
+                                <img src="event1.jpg" alt="Event 1">
+                                <h3>Event 1 Title</h3>
+                                <p>Event 1 description</p>
+                            </div>
+                            <div class="event-card">
+                                <img src="event2.jpg" alt="Event 2">
+                                <h3>Event 2 Title</h3>
+                                <p>Event 2 description</p>
+                            </div>
+                            
+                        </section>
+                    </main>
+                </div>
+            </section>
+        </div>
+        <div class="content-right">
+            <div class="login-container">
+                <div class="login-box">
+                    <div class="login-container">
+                        <div class="login-box">
+                            <h2>Log In</h2>
+                            <form>
+                                <label for="username">Username</label>
+                                <input type="text" id="username" name="username" placeholder="Enter your username">
+                
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" placeholder="Enter your password">
+                
+                                <button type="submit">Log In</button>
+                            </form>
+                        </div>
+                </div>
+                <div class="signup-box">
+                    <div class="signup-box">
+                        <h2>Sign Up</h2>
+                        <form>
+                            <label for="new-username">Username</label>
+                            <input type="text" id="new-username" name="new-username" placeholder="Choose a username">
+            
+                            <label for="new-password">Password</label>
+                            <input type="password" id="new-password" name="new-password" placeholder="Choose a password">
+            
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password">
+            
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <footer class="footer">
+        <div class="about-us">
+            <h4>About Us</h4>
+            <p>CUNY hosts a variable amount of programs for their students not only for college students but also
+                precollege students. Welcome to the vibrant online hub for CUNY Precollege students! Our website is
+                dedicated to providing a dynamic platform where students can explore an array of exciting pre-college
+                programs offered by the City University of New York. Whether you're passionate about STEM, the arts,
+                humanities, or beyond, we've curated a diverse range of programs to cater to your unique interests and
+                aspirations. But it's not just about the programs – it's also about fostering connections. We offer
+                these students a community to connect with fellow students who share your ambitions and enthusiasm.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
