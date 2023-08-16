@@ -97,3 +97,30 @@ body {
         top: 45px;
     }
 }
+
+.user-profile {
+    background-color: rgba(183, 219, 232, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    background-color: rgba(183, 219, 232, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 80%;
+}
+
+.name {
+    font-size: 100%;
+    color: white;
+}
